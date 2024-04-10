@@ -1,0 +1,5 @@
+IP: 62.84.123.226 ;
+name_taski: https://igothellahosts.bounceme.net ;
+name_kittygram: https://kittrealg.zapto.org ;
+login: adm ;
+password: adm ;
