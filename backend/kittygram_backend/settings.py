@@ -94,10 +94,10 @@ USE_L10N = True
 USE_TZ = True
 
 
-STATIC_URL = 'static_backend'
-STATIC_ROOT = BASE_DIR / STATIC_URL
-MEDIA_URL = 'media'
-MEDIA_ROOT = BASE_DIR / MEDIA_URL
+STATIC_URL = '/static_backend/'
+STATIC_ROOT = '/var/www/kittygram'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/var/www/kittygram'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
