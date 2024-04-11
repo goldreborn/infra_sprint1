@@ -4,14 +4,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
+
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','62.84.123.226']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','62.84.123.226','kittrealg.zapro.org']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -93,11 +93,10 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 STATIC_URL = 'static_backend'
 STATIC_ROOT = BASE_DIR / 'static_backend'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/var/www/kittygram'
+MEDIA_ROOT = '/var/www/kittygram/media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
